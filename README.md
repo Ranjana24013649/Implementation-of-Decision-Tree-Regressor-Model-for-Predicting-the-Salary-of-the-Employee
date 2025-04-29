@@ -68,11 +68,24 @@ r2=metrics.r2_score(y_test,y_pred)
 r2
 dt.predict([[5,6]])
 
+plt.figure(figsize=(20, 8))
+
+plot_tree(dt, feature_names=x.columns, filled=True)
+
+plt.show()
+
 ## Output:
 Data.Head()
 
-![279486017-17219e1b-9545-45e2-bb45-dd459016cbf9](https://github.com/user-attachments/assets/0ffffa66-5f54-4b64-9f50-b89029f8bc96)
-Data.info()
+![319283190-964c85c1-4627-45c1-b905-0f77c3c3b12d](https://github.com/user-attachments/assets/200fd4c6-2c0a-4fba-8b5b-21654dffc736)
+
+
+![319284497-b9d39342-e915-4ebd-906d-c7910f9bb566](https://github.com/user-attachments/assets/e9ce7152-1bdd-4f26-8e3a-ef7df72e3448)
+
+![319284673-5cb9db1a-7819-42c7-be62-d137d6209c8c](https://github.com/user-attachments/assets/d76d57fc-ddb3-465a-9ef9-2866417b408b)
+
+![319284919-acbff202-598d-4d01-a02f-7a7fb45741a0](https://github.com/user-attachments/assets/3272e6af-ad89-4e91-b2d6-bee51f288190)
+
 
 
 ## Result:
